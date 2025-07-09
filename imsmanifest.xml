@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="regimen_cursado" version="1.0"
+    xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+    xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1
+    imscp_v1p1.xsd
+    http://www.adlnet.org/xsd/adlcp_v1p3
+    adlcp_v1p3.xsd">
+
+    <organizations default="regimen_curso">
+        <organization identifier="regimen_curso">
+            <title>Régimen de Cursado</title>
+            <item identifier="item_1" identifierref="resource_1">
+                <title>Régimen de Cursado - UNSa</title>
+            </item>
+        </organization>
+    </organizations>
+
+    <resources>
+        <resource identifier="resource_1" type="webcontent" href="index.html" adlcp:scormType="sco">
+            <file href="index.html"/>
+        </resource>
+    </resources>
+</manifest>
